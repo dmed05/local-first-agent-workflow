@@ -21,4 +21,4 @@ jobs:
           python-version: "3.11"
       - run: python -m unittest discover -s tests
       - run: bash scripts/security-check.sh
-      - uses: gitleaks/gitleaks-action@v2
+      - uses: gitleaks/gitleaks-action@v3
