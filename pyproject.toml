@@ -1,0 +1,11 @@
+[project]
+name = "local-first-agent-workflow"
+version = "1.0.0"
+description = "A staged, human-reviewed workflow engine for local AI automation"
+requires-python = ">=3.11"
+
+[project.scripts]
+agent-workflow = "workflow.cli:main"
+
+[tool.setuptools]
+packages = ["workflow"]
